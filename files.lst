@@ -1,0 +1,42 @@
+
+                         Cyclic Redundancy Checks (CRCs)
+
+               Explanation of the 'polynomial division' algorithm
+                 and the possible uses of CRC implementations.
+               Includes complete routines for table driven CRC-16
+                 & CRC-32 calculation including building tables.
+
+                            Revision date 15 Jul 1993
+
+               Information collected and edited by Arjen G. Lentz
+             Sourcecode in C and 80x86 ASM written by Arjen G. Lentz
+                  COPYRIGHT (C) 1992-1993; ALL RIGHTS RESERVED
+
+
+  Filename      Description
+  ------------  -----------
+  CRC_AGL.ZIP   Table driven CRC-16/32 specs,info,C/ASM,tests
+
+  This archive (CRC_AGL.ZIP) should contain the following files:
+  (All files should have a timestamp of 15 Jul 1993 0:00)
+
+  FILES.LST     This file
+  CRC.DOC       Specifications, information, documentation
+  CRC.H         Defines, type definitions and function prototypes
+  CRC.C         C implementation
+  CRC.ASM       80x86 ASM implementation (very very fast!)
+  CRC_TINY.C    C implementation with tiny tables
+  CRC_TEST.C    Validation program, speed trials, table gen.
+  CRC_C.COM     MS-DOS executable of CRC_TEST + CRC.C
+  CRC_ASM.COM   MS-DOS executable of CRC_TEST + CRC.ASM
+  CRC_TINY.COM  MS-DOS executable of CRC_TEST + CRC_TINY.C
+  MK_BCC.BAT    Batch to create the three executables with Borland C++ 2.x/3.x
+
+
+  LENTZ SOFTWARE-DEVELOPMENT    Arjen Lentz @
+  Langegracht 7B                AINEX-BBS +31-33-633916
+  3811 BT  Amersfoort           FidoNet 2:283/512
+  The Netherlands               f512.n283.z2.fidonet.org
+
+  --- end of "files.lst" ---
+
